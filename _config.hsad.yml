@@ -3,9 +3,9 @@ avatar: /images/avatar.png
 sidebar_background: /images/windows-center.jpg
 accent_color: '#496b8c'
 accent_soft: '#dce8f0'
-brand_name: nblog
+brand_name: nblog · 小记
 brand_subtitle: pinned ...
-sidebar_note: 🧠 寄存处。
+sidebar_note: 🧠 寄存处
 excerpt_length: 72
 
 menu:
@@ -27,7 +27,7 @@ social:
     url: mailto:503407184@qq.com
 
 footer:
-  text: 🧠 寄存处。
+  text: --- end.
   support:
     enable: false
   license_name: ''

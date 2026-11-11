@@ -26,3 +26,8 @@ body {
     repeating-linear-gradient(0deg, rgba(107, 94, 63, 0.014) 0 1px, transparent 1px 3px);
   background-attachment: fixed;
 }
+
+/* The theme falls back to the site description when footer.text is empty. */
+.site-footer__text {
+  display: none;
+}
