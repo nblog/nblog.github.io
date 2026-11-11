@@ -1,0 +1,34 @@
+# Personal settings override the upstream theme without modifying it.
+avatar: /images/avatar.png
+sidebar_background: /images/windows-center.jpg
+accent_color: '#496b8c'
+accent_soft: '#dce8f0'
+brand_name: nblog
+brand_subtitle: pinned ...
+sidebar_note: 记录探索，保留思考。
+excerpt_length: 72
+
+menu:
+  - name: 首页
+    path: /
+  - name: 分类
+    path: /categories/
+  - name: 标签
+    path: /tags/
+  - name: 搜索
+    path: /search/
+  - name: 关于
+    path: /about/
+
+social:
+  - name: GitHub
+    url: https://github.com/nblog
+  - name: E-Mail
+    url: mailto:503407184@qq.com
+
+footer:
+  text: 记录探索，保留思考。
+  support:
+    enable: false
+  license_name: ''
+  license_url: ''

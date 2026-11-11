@@ -1,0 +1,3 @@
+[submodule "themes/hsad"]
+	path = themes/hsad
+	url = https://github.com/watanabe-hsad/hexo-theme-hsad.git

@@ -1,0 +1,28 @@
+/* Keep the reading surface warm and light across system color schemes. */
+:root {
+  color-scheme: light;
+  --bg: #f7f4ec;
+  --text: #333734;
+  --text-soft: #70736b;
+  --line: rgba(90, 82, 62, 0.11);
+  --line-strong: rgba(90, 82, 62, 0.18);
+  --accent: #496b8c;
+  --accent-strong: #34475b;
+  --accent-soft: #dce8f0;
+  --code-text: #344352;
+  --code-surface: rgba(235, 235, 225, 0.68);
+  --input-bg: rgba(255, 253, 246, 0.65);
+  --input-bg-focus: rgba(255, 253, 246, 0.92);
+  --chip-bg: rgba(225, 232, 229, 0.65);
+  --progress-track: rgba(91, 124, 153, 0.08);
+  --selection: #dce8ec;
+}
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 100% 0%, rgba(226, 208, 173, 0.16), transparent 62%),
+    radial-gradient(ellipse at 32% 90%, rgba(230, 221, 197, 0.14), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(107, 94, 63, 0.014) 0 1px, transparent 1px 3px);
+  background-attachment: fixed;
+}
