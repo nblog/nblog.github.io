@@ -5,7 +5,7 @@ accent_color: '#496b8c'
 accent_soft: '#dce8f0'
 brand_name: nblog
 brand_subtitle: pinned ...
-sidebar_note: 记录探索，保留思考。
+sidebar_note: 🧠 寄存处。
 excerpt_length: 72
 
 menu:
@@ -27,7 +27,7 @@ social:
     url: mailto:503407184@qq.com
 
 footer:
-  text: 记录探索，保留思考。
+  text: 🧠 寄存处。
   support:
     enable: false
   license_name: ''
